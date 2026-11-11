@@ -1,0 +1,3 @@
+.DS_Store
+# Audit reports describe exploitable weaknesses; never commit one by accident.
+security_audit_*.md

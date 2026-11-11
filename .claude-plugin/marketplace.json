@@ -1,0 +1,20 @@
+{
+  "name": "paraxial",
+  "owner": {
+    "name": "Paraxial.io",
+    "url": "https://paraxial.io"
+  },
+  "metadata": {
+    "description": "Security skills for AI coding agents, published by Paraxial.io.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "elixir-security-audit",
+      "description": "Security audit of a single Elixir project (Phoenix, LiveView, Absinthe, Ash): Hex and Sobelow checks, scanner triage, a manual hunt for high-severity bugs, a skeptical second reviewer, and a plain-language report.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/elixir-security-audit"]
+    }
+  ]
+}
